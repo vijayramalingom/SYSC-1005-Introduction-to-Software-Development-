@@ -1,0 +1,41 @@
+#Exercise 1
+#Step 1
+print 3.14*5**2
+
+#Step 2
+def area_of_disk(radius):
+    return 3.14*radius**2
+
+#Step 3
+print area_of_disk(5.0)
+#The value is the same area as displayed in Step 1
+
+#Step 4 Predict the area will be 314.0 
+print area_of_disk(10.0)
+#Result is as predicted
+
+#Step 5
+print area_of_disk(2.0 + 3.0)
+r = 2.0 + 3.0
+print area_of_disk(r)
+print area_of_disk(r * 2)
+
+#Step 6
+result = area_of_disk(5.0)
+print result
+
+#Step 7
+#Global Frame
+#Refers to the function
+#area_of_disk
+#at step 2
+#radius is bound to 5.0 since we put 5.0 = radius in the function call
+#depicts it as a float 
+#after the result has been bound
+#the global frame
+#after the function definition had been excecuted
+#function definition and argument caused result to be bound to 5.0
+
+#Exercise 2
+#Step 1
+

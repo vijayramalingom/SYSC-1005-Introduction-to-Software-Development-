@@ -1,0 +1,19 @@
+degrees_c = 20.0
+degrees_f = (9.0 / 5.0) * degrees_c + 32
+print (degrees_f)
+
+mileage = 32
+LITRES_PER_GALLON = 4.54609
+KMS_PER_MILE = 1.60934
+fuel_consumption =  (100 * LITRES_PER_GALLON) / (mileage * KMS_PER_MILE) 
+print (fuel_consumption)
+
+principle = 1500
+rate = 0.043
+n = 4
+time = 6
+amount = principle * (1 + (rate / n))**(n * time)
+print (amount)
+
+#For exercise 7, x will be bound to 3
+#For exercise 8 a is bound to 2, b is bound to 3, c is bound to 40, d is bound to 4
